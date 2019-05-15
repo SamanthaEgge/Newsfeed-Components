@@ -63,11 +63,12 @@
   font-size: 32px;
   padding: 30px 0;
   text-align: center;
-  color: white;
 }
-.menu ul li li:hover {
-  color: white;
+.menu ul li:hover {
+  color: #e5e5e5;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  box-shadow: inset 0px 11px 8px -10px #004D40, inset 0px -11px 8px -10px #004D40;
 }
 .menu--open {
   display: block;
