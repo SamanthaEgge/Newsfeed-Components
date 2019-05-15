@@ -13,8 +13,6 @@ class Article {
     this.expandButton.addEventListener('click', () => this.expandArticle())
     // Set a click handler on the expandButton reference, calling
     // the expandArticle method.
-
-    
   }
 
   expandArticle() {
